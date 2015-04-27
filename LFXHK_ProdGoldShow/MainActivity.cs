@@ -51,7 +51,9 @@ namespace LFXHK_ProdGoldShow
         /// <summary>
         /// 循环图片资源
         /// </summary>
-        public static int[] picture = { Resource.Drawable.gallery1, Resource.Drawable.gallery2, Resource.Drawable.gallery3, Resource.Drawable.gallery4, Resource.Drawable.gallery5, Resource.Drawable.gallery6 };
+        public static int[] picture = { 
+                                          //Resource.Drawable.gallery1, Resource.Drawable.gallery2, Resource.Drawable.gallery3, Resource.Drawable.gallery4, Resource.Drawable.gallery5, Resource.Drawable.gallery6
+                                      };
         /// <summary>
         /// 自定义MyGallery
         /// </summary>
@@ -249,7 +251,7 @@ namespace LFXHK_ProdGoldShow
         {
             if (ManageDevice.isConnectingToInternet(this) == false)
             {
-                MessageBox.Show(this, "无可用网络", "请检查网络");
+                MessageBox.Show(this, "無可用網絡", "請檢查網絡");
                 return;
             }
             HttpDownloadFile.CheckPackVerson(this);
@@ -294,7 +296,7 @@ namespace LFXHK_ProdGoldShow
                 {
                     return;
                 }
-                if (resultStringDr1 != "连接错误" && resultStringDr1 != "连接超时")
+                if (resultStringDr1 != "鏈接錯誤" && resultStringDr1 != "鏈接超時")
                 {
                     RunOnUiThread(() =>
                     {
@@ -305,7 +307,7 @@ namespace LFXHK_ProdGoldShow
                 {
                     RunOnUiThread(() =>
                     {
-                        MessageBox.Show(this, resultStringDr1, "请检查网络或者联系服务商");
+                        MessageBox.Show(this, resultStringDr1, "請檢查網絡或者聯系服務商");
                     });
                 }
             });

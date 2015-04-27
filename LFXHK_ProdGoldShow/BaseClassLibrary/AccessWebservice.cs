@@ -80,7 +80,7 @@ namespace LFXHK_ProdGoldShow
                 {
                     if (WebExceptionStatus.Timeout == er.Status)
                     {
-                        return "连接超时";
+                        return "鏈接超時";
                     }
                 }
                 try
@@ -91,7 +91,7 @@ namespace LFXHK_ProdGoldShow
                 }
                 catch (Exception er)
                 {
-                    return "连接超时" + er.Message;
+                    return "鏈接超時" + er.Message;
                 }
                 string _retString = WebResponseGet(_webRequest);
                 _webRequest = null;
@@ -105,7 +105,7 @@ namespace LFXHK_ProdGoldShow
             }
             catch (Exception ex102)
             {
-                return "连接超时" + ex102.Message;
+                return "鏈接超時" + ex102.Message;
             }
         }
         /// <summary> 
@@ -124,7 +124,7 @@ namespace LFXHK_ProdGoldShow
             }
             catch (Exception)
             {
-                return "连接错误";
+                return "鏈接錯誤";
             }
             finally
             {

@@ -79,8 +79,6 @@
     <AndroidResource Include="Resources\layout\goldpriceitem.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\OtherMain1.axml" />
-    <AndroidResource Include="Resources\layout\OtherMain3.axml" />
     <AndroidResource Include="Resources\layout\OtherMain.axml" />
   </ItemGroup>
   <ItemGroup>
@@ -126,7 +124,14 @@
     <AndroidResource Include="Resources\drawable-hdpi\bjxx.jpg" />
     <AndroidResource Include="Resources\drawable-hdpi\bjxx2.jpg" />
     <AndroidResource Include="Resources\values\Dimens.xml" />
-    <AndroidResource Include="Resources\drawable-hdpi\Prod8.jpg" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable\Images.png" />
+    <AndroidResource Include="Resources\drawable\laofengxiang.png" />
+    <AndroidResource Include="Resources\drawable\Logo.png" />
+    <AndroidResource Include="Resources\drawable\Logo_bmp.xml" />
+    <AndroidResource Include="Resources\drawable\welcome.jpg" />
+    <AndroidResource Include="Resources\drawable\zhaoyazhi.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\GPJ.jpg" />
     <AndroidResource Include="Resources\drawable-hdpi\Prod1.jpg" />
     <AndroidResource Include="Resources\drawable-hdpi\Prod2.jpg" />
     <AndroidResource Include="Resources\drawable-hdpi\Prod3.jpg" />
@@ -134,27 +139,8 @@
     <AndroidResource Include="Resources\drawable-hdpi\Prod5.jpg" />
     <AndroidResource Include="Resources\drawable-hdpi\Prod6.jpg" />
     <AndroidResource Include="Resources\drawable-hdpi\Prod7.jpg" />
-    <AndroidResource Include="Resources\drawable\bg_GoldPrice.jpg" />
-    <AndroidResource Include="Resources\drawable\bg1.jpg" />
-    <AndroidResource Include="Resources\drawable\bg2.jpg" />
-    <AndroidResource Include="Resources\drawable\Company.png" />
-    <AndroidResource Include="Resources\drawable\gallery1.jpg" />
-    <AndroidResource Include="Resources\drawable\gallery2.jpg" />
-    <AndroidResource Include="Resources\drawable\gallery3.jpg" />
-    <AndroidResource Include="Resources\drawable\gallery4.jpg" />
-    <AndroidResource Include="Resources\drawable\gallery5.jpg" />
-    <AndroidResource Include="Resources\drawable\gallery6.jpg" />
-    <AndroidResource Include="Resources\drawable\GoldPrice.png" />
-    <AndroidResource Include="Resources\drawable\GoldPrice_bg.png" />
-    <AndroidResource Include="Resources\drawable\GoldPriceTitle.png" />
-    <AndroidResource Include="Resources\drawable\Icon.png" />
-    <AndroidResource Include="Resources\drawable\Images.png" />
-    <AndroidResource Include="Resources\drawable\ImageShow.png" />
-    <AndroidResource Include="Resources\drawable\laofengxiang.png" />
-    <AndroidResource Include="Resources\drawable\Logo.png" />
-    <AndroidResource Include="Resources\drawable\Logo_bmp.xml" />
-    <AndroidResource Include="Resources\drawable\welcome.jpg" />
-    <AndroidResource Include="Resources\drawable\zhaoyazhi.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod8.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod9.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -15,7 +15,8 @@
         android:layout_width="0dip"
         android:orientation="vertical"
         android:layout_height="fill_parent"
-        android:layout_weight="0.365625">
+        android:layout_weight="0.365625"
+        android:background="@drawable/GPJ">
         <LinearLayout
             android:id="@+id/linearListView"
             android:orientation="vertical"
@@ -25,17 +26,15 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dip"
                 android:layout_weight="0.2"
-                android:id="@+id/linearLayout1"
-                android:background="@drawable/bj02" />
+                android:id="@+id/linearLayout1" />
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dip"
                 android:layout_weight="0.5"
-                android:id="@+id/linearLayout2"
-                android:background="@drawable/bjxx2">
+                android:id="@+id/linearLayout2">
                 <LinearLayout
                     android:orientation="horizontal"
                     android:minWidth="25px"
@@ -235,10 +234,9 @@
             <LinearLayout
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="0dip"
                 android:layout_weight="0.3"
-                android:id="@+id/linearLayout5"
-                android:background="@drawable/bj26">
+                android:id="@+id/linearLayout5">
                 <LinearLayout
                     android:orientation="horizontal"
                     android:minWidth="25px"

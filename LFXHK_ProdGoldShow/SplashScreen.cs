@@ -50,7 +50,7 @@ namespace LFXHK_ProdGoldShow
                 {
                     return;
                 }
-                if (resultStringDr1 != "连接错误" && resultStringDr1 != "连接超时")
+                if (resultStringDr1 != "鏈接錯誤" && resultStringDr1 != "鏈接超時")
                 {
                     RunOnUiThread(() =>
                     {
@@ -69,7 +69,7 @@ namespace LFXHK_ProdGoldShow
                 {
                     RunOnUiThread(() =>
                     {
-                        MessageBox.Show(this, resultStringDr1, "请检查网络或者联系服务商");
+                        MessageBox.Show(this, resultStringDr1, "請檢查網絡或者聯系服務商");
                     });
                 }
             });

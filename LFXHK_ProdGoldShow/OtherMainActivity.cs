@@ -22,7 +22,7 @@ using System.Globalization;
 
 namespace LFXHK_ProdGoldShow
 {
-    [Activity(Label = "金价显示", Icon = "@drawable/laofengxiang", ScreenOrientation = Android.Content.PM.ScreenOrientation.Landscape)]
+    [Activity(Label = "金價顯示", Icon = "@drawable/laofengxiang", ScreenOrientation = Android.Content.PM.ScreenOrientation.Landscape)]
     public class OtherMainActivity : Activity
     {
         #region 全局变量
@@ -53,7 +53,7 @@ namespace LFXHK_ProdGoldShow
         /// <summary>
         /// 循环图片资源
         /// </summary>
-        public static int[] picture = { Resource.Drawable.Prod1, Resource.Drawable.Prod2, Resource.Drawable.Prod3, Resource.Drawable.Prod4, Resource.Drawable.Prod5, Resource.Drawable.Prod6, Resource.Drawable.Prod7, Resource.Drawable.Prod8 };
+        public static int[] picture = { Resource.Drawable.Prod1, Resource.Drawable.Prod2, Resource.Drawable.Prod3, Resource.Drawable.Prod4, Resource.Drawable.Prod5, Resource.Drawable.Prod6, Resource.Drawable.Prod7, Resource.Drawable.Prod8, Resource.Drawable.Prod9 };
         /// <summary>
         /// 自定义MyGallery
         /// </summary>
@@ -99,10 +99,9 @@ namespace LFXHK_ProdGoldShow
         }
         public override bool OnCreateOptionsMenu(IMenu menu)
         {
-            menu.Add(Menu.None, 0, Menu.None, "刷新金价").SetIcon(Android.Resource.Drawable.IcMenuDirections);
-            menu.Add(Menu.None, 1, Menu.None, "播放视频").SetIcon(Android.Resource.Drawable.IcMenuDirections);
+            menu.Add(Menu.None, 0, Menu.None, "刷新金價").SetIcon(Android.Resource.Drawable.IcMenuDirections);
+            menu.Add(Menu.None, 1, Menu.None, "播放視頻").SetIcon(Android.Resource.Drawable.IcMenuDirections);
             menu.Add(Menu.None, 2, Menu.None, "退出系统").SetIcon(Android.Resource.Drawable.IcMenuDirections);
-            menu.Add(Menu.None, 3, Menu.None, "暂停播放").SetIcon(Android.Resource.Drawable.IcMenuDirections);
             return true;
         }
         public override bool OnOptionsItemSelected(IMenuItem item)
@@ -113,7 +112,8 @@ namespace LFXHK_ProdGoldShow
                     Fun_GetGoldPrice();
                     return true;
                 case 1:
-                    OpenVideo();
+                    MessageBox.Show(this, "提示", "工程師正在努力研發中。。。");
+                    //OpenVideo();
                     return true;
                 case 3:
                     return true;
@@ -251,7 +251,7 @@ namespace LFXHK_ProdGoldShow
         {
             if (ManageDevice.isConnectingToInternet(this) == false)
             {
-                MessageBox.Show(this, "无可用网络", "请检查网络");
+                MessageBox.Show(this, "無可用網絡", "請檢查網絡");
                 return;
             }
             HttpDownloadFile.CheckPackVerson(this);
@@ -322,7 +322,7 @@ namespace LFXHK_ProdGoldShow
                 {
                     return;
                 }
-                if (resultStringDr1 != "连接错误" && resultStringDr1 != "连接超时")
+                if (resultStringDr1 != "鏈接錯誤" && resultStringDr1 != "鏈接超時")
                 {
                     RunOnUiThread(() =>
                     {
@@ -333,7 +333,7 @@ namespace LFXHK_ProdGoldShow
                 {
                     RunOnUiThread(() =>
                     {
-                        MessageBox.Show(this, resultStringDr1, "请检查网络或者联系服务商");
+                        MessageBox.Show(this, resultStringDr1, "請檢查網絡或者聯系服務商");
                     });
                 }
             });

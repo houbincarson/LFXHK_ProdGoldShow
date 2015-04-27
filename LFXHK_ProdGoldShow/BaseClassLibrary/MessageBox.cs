@@ -16,21 +16,21 @@ namespace LFXHK_ProdGoldShow
             AlertDialog.Builder dlg = new AlertDialog.Builder(ctx);  
             dlg.SetTitle(title);  
             dlg.SetMessage(message);  
-            dlg.SetPositiveButton("确定", delegate { });  
+            dlg.SetPositiveButton("確定", delegate { });  
             dlg.Show(); 
 
         }  
         public static void ShowErrorMessage(Context ctx, Exception ex)  
         {  
-            Show(ctx, "错误", ex.Message);  
+            Show(ctx, "錯誤", ex.Message);  
         }  
 		public static void Alert(Context ctx, string message)  
         {  
-         CreateDialog(ctx, "提示", message).SetIcon(Android.Resource.Drawable.IcDialogAlert).SetPositiveButton("确定", delegate { }).Show();  
+         CreateDialog(ctx, "提示", message).SetIcon(Android.Resource.Drawable.IcDialogAlert).SetPositiveButton("確定", delegate { }).Show();  
         }
 		public static void Confirm(Context ctx, string title, string message, EventHandler<DialogClickEventArgs> okHandler, EventHandler<DialogClickEventArgs>  cancelHandler)  
 		{  
-			CreateDialog(ctx, title, message).SetPositiveButton("确定", okHandler).SetNegativeButton("取消", cancelHandler).Show(); 
+			CreateDialog(ctx, title, message).SetPositiveButton("確定", okHandler).SetNegativeButton("取消", cancelHandler).Show(); 
 		}  
 		public static void Confirm(Context ctx, string title, string message,string OKName,string CancelName, EventHandler<DialogClickEventArgs> okHandler, EventHandler<DialogClickEventArgs>  cancelHandler)  
 		{

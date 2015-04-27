@@ -23,7 +23,7 @@ namespace LFXHK_ProdGoldShow
         public static void InstallApkFile(Context context, string urlString, string PackName)
         {
             string Err;
-            ProgressDialog pd = ProgressDialog.Show(context, new Java.Lang.String("提示"), new Java.Lang.String("正在更新版本，请稍后……"), true);
+            ProgressDialog pd = ProgressDialog.Show(context, new Java.Lang.String("提示"), new Java.Lang.String("正在更新版本，請稍後……"), true);
             Java.Lang.Thread th = new Java.Lang.Thread(() =>
             { 
                 try
@@ -44,7 +44,7 @@ namespace LFXHK_ProdGoldShow
                     }
                     catch
                     {
-                        Err = "安装程序打开错误";
+                        Err = "安裝程序打開錯誤";
                     }
                 }
             });
@@ -64,14 +64,14 @@ namespace LFXHK_ProdGoldShow
                    Convert.ToDouble(VersonTable.Rows[0][3].ToString())
                    > context.PackageManager.GetPackageInfo(context.PackageName, 0).VersionCode)
                 {
-                    MessageBox.Confirm(context, "版本有更新", VersonTable.Rows[0][6].ToString(), "现在更新", "稍后提醒", delegate { HttpDownloadFile.InstallApkFile(context, VersonTable.Rows[0][5].ToString(), context.PackageName + ".apk"); },
+                    MessageBox.Confirm(context, "版本有更新", VersonTable.Rows[0][6].ToString(), "現在更新", "稍後提醒", delegate { HttpDownloadFile.InstallApkFile(context, VersonTable.Rows[0][5].ToString(), context.PackageName + ".apk"); },
                                        new EventHandler<DialogClickEventArgs>(cancelHandler));
                 }
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show(context, "版本更新错误:", ex.Message);
+                MessageBox.Show(context, "版本更新錯誤:", ex.Message);
             }
         }
         static void cancelHandler(object sender, DialogClickEventArgs e)
@@ -113,11 +113,11 @@ namespace LFXHK_ProdGoldShow
             {
                 Boolean b = file.Mkdirs();
 
-                Log.Error("file", "目录不存在  创建文件    " + b);
+                Log.Error("file", "目錄不存在  創建文件    " + b);
             }
             else
             {
-                Log.Error("file", "目录存在");
+                Log.Error("file", "目錄存在");
             }
             return filePath;
         }
