@@ -1,1 +1,0 @@
-<bitmap android:id="@+id/Logo_bmp" android:src="@drawable/logo" android:tileMode="disabled" android:gravity="top" xmlns:android="http://schemas.android.com/apk/res/android"></bitmap>
