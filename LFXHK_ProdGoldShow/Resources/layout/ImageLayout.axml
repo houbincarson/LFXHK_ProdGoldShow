@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LFXHK_ProdGoldShow.MyGallery
+        android:id="@+id/mygallery"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:spacing="30dp"
+        android:unselectedAlpha="1" />
+</LinearLayout>

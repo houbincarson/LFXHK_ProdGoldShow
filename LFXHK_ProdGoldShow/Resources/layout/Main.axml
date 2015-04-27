@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:id="@+id/RelativeLayout0">
+    <RelativeLayout
+        android:id="@+id/RelativeLayout01"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5" />
+    <RelativeLayout
+        android:id="@+id/RelativeLayout02"
+        android:layout_width="0dip"
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:background="@color/white"
+        android:layout_weight="0.5">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:id="@+id/linearHead">
+            <TextView
+                android:text="今日飾品金價"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/gold"
+                android:textStyle="bold" />
+            <TextView
+                android:text="Text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDateString"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearListView"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/linearHead"
+            android:layout_above="@+id/linearBottom">
+            <LinearLayout
+                android:id="@+id/linearListViewHead"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="50dip">
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.8"
+                    android:id="@+id/relativeLayout2">
+                    <View
+                        android:id="@+id/ViewLines"
+                        android:layout_width="1dip"
+                        android:layout_height="fill_parent"
+                        android:background="#FFCBCBCB"
+                        android:layout_alignParentRight="true" />
+                    <TextView
+                        android:text="项目"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView2"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/gold" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/relativeLayout3">
+                    <View
+                        android:id="@+id/ViewLines2"
+                        android:layout_width="1dip"
+                        android:layout_height="fill_parent"
+                        android:background="#FFCBCBCB"
+                        android:layout_alignParentRight="true" />
+                    <TextView
+                        android:text=" 賣出(HKD)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView3"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/gold"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dip" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/relativeLayout3"
+                    android:layout_weight="1">
+                    <View
+                        android:id="@+id/ViewLines"
+                        android:layout_width="1dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/transparent"
+                        android:layout_alignParentRight="true" />
+                    <TextView
+                        android:text=" 買入(HKD)"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView3"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/gold"
+                        android:gravity="center"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dip" />
+                </RelativeLayout>
+            </LinearLayout>
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/gplistview"
+                android:dividerHeight="1dip"
+                android:divider="#FFCBCBCB" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

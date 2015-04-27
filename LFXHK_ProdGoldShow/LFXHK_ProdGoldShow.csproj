@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F4CB75DB-F608-4964-BC85-04B02323DE3C}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LFXHK_ProdGoldShow</RootNamespace>
+    <AssemblyName>LFXHK_ProdGoldShow</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="Mono.Android.Support.v4" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Json" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClassLibrary\AccessWebservice.cs" />
+    <Compile Include="BaseClassLibrary\ControlDataTable.cs" />
+    <Compile Include="BaseClassLibrary\HttpDownloadFile.cs" />
+    <Compile Include="BaseClassLibrary\HttpImageView.cs" />
+    <Compile Include="BaseClassLibrary\ManageDevice.cs" />
+    <Compile Include="BaseClassLibrary\MessageBox.cs" />
+    <Compile Include="DataString.cs" />
+    <Compile Include="GoldPriceInfoAdapter.cs" />
+    <Compile Include="ImageAdapter.cs" />
+    <Compile Include="MyGallery.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplashScreen.cs" />
+    <Compile Include="OtherMainActivity.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BaseClassLibrary\BatarHeHe.keystore" />
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <AndroidResource Include="Resources\layout\item.axml" />
+    <AndroidResource Include="Resources\layout\item2.axml" />
+    <AndroidResource Include="Resources\layout\layout1.axml" />
+    <AndroidResource Include="Resources\layout\videoview.axml" />
+    <AndroidResource Include="Resources\layout\ImageLayout.axml" />
+    <AndroidResource Include="Resources\layout\VideoLayout.axml" />
+    <AndroidResource Include="Resources\layout\goldpriceitem.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\OtherMain1.axml" />
+    <AndroidResource Include="Resources\layout\OtherMain3.axml" />
+    <AndroidResource Include="Resources\layout\OtherMain.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BaseClassLibrary\BatarHeHeKEY.txt" />
+    <Content Include="Properties\AndroidManifest.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <AndroidResource Include="Resources\values\Color.xml" />
+    <AndroidResource Include="Resources\values\Style.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\bj02.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj08.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj03.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj04.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj05.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj06.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj07.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj26.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj10.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj11.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj12.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj13.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj14.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj15.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj16.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj17.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj18.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj19.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj20.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj21.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj22.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj23.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj24.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj25.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bj09.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bjxx.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\bjxx2.jpg" />
+    <AndroidResource Include="Resources\values\Dimens.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod8.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod1.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod2.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod3.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod4.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod5.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod6.jpg" />
+    <AndroidResource Include="Resources\drawable-hdpi\Prod7.jpg" />
+    <AndroidResource Include="Resources\drawable\bg_GoldPrice.jpg" />
+    <AndroidResource Include="Resources\drawable\bg1.jpg" />
+    <AndroidResource Include="Resources\drawable\bg2.jpg" />
+    <AndroidResource Include="Resources\drawable\Company.png" />
+    <AndroidResource Include="Resources\drawable\gallery1.jpg" />
+    <AndroidResource Include="Resources\drawable\gallery2.jpg" />
+    <AndroidResource Include="Resources\drawable\gallery3.jpg" />
+    <AndroidResource Include="Resources\drawable\gallery4.jpg" />
+    <AndroidResource Include="Resources\drawable\gallery5.jpg" />
+    <AndroidResource Include="Resources\drawable\gallery6.jpg" />
+    <AndroidResource Include="Resources\drawable\GoldPrice.png" />
+    <AndroidResource Include="Resources\drawable\GoldPrice_bg.png" />
+    <AndroidResource Include="Resources\drawable\GoldPriceTitle.png" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\drawable\Images.png" />
+    <AndroidResource Include="Resources\drawable\ImageShow.png" />
+    <AndroidResource Include="Resources\drawable\laofengxiang.png" />
+    <AndroidResource Include="Resources\drawable\Logo.png" />
+    <AndroidResource Include="Resources\drawable\Logo_bmp.xml" />
+    <AndroidResource Include="Resources\drawable\welcome.jpg" />
+    <AndroidResource Include="Resources\drawable\zhaoyazhi.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+ Alias        BatarHeHeKEY
+ password     beishanbatar
+ Validity     10000Ìì
+ First and Last Name: BatarHeHe
+ Deparment           RPC
+ Organisation        RPC
+ CIty of Locality    Shenzheng
+ State or Province   GuangDong
+ Country Code        CN   
+ keyalg              RSA
+ keystore            BatarHeHe.keystore 
