@@ -357,6 +357,7 @@ namespace LFXHK_ProdGoldShow
         class ImageAdapter : BaseAdapter
         {
             Activity context;
+            HashMap dataCache = new HashMap ();
             public ImageAdapter(Activity context)
             {
                 this.context = context;
@@ -380,13 +381,26 @@ namespace LFXHK_ProdGoldShow
             public override Android.Views.View GetView(int position, Android.Views.View convertView, Android.Views.ViewGroup parent)
             {
                 ImageView imageView = new ImageView(context);
-                Bitmap btm = readBitMap(context, picture[position % picture.Length]);
-                imageView.SetImageBitmap(btm);
+                Bitmap current = (Bitmap)dataCache.Get(position);
+                if (current!=null)
+                {
+                    imageView.SetImageBitmap(current);
+                }
+                else
+                {
+                    current = readBitMap(context, picture[position % picture.Length]);
+                    imageView.SetImageBitmap(current);
+                    dataCache.Put(position, current);
+                }
+
+                //Bitmap btm = readBitMap(context, picture[position % picture.Length]);
+                //imageView.SetImageBitmap(btm);
                 imageView.SetScaleType(ImageView.ScaleType.FitXy);
                 imageView.LayoutParameters = new Gallery.LayoutParams(
                         Gallery.LayoutParams.FillParent,
-                        Gallery.LayoutParams.FillParent);
+                        Gallery.LayoutParams.FillParent); 
                 return imageView;
+                
             }
 
             public static Bitmap readBitMap(Context context, int resId)

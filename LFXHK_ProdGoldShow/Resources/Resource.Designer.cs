@@ -518,136 +518,55 @@ namespace LFXHK_ProdGoldShow
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int bj02 = 2130837504;
+			public const int GPJ = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int bj03 = 2130837505;
+			public const int Icon = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int bj04 = 2130837506;
+			public const int Images = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int bj05 = 2130837507;
+			public const int laofengxiang = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int bj06 = 2130837508;
+			public const int Logo = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int bj07 = 2130837509;
+			public const int Logo_bmp = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int bj08 = 2130837510;
+			public const int Prod1 = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int bj09 = 2130837511;
+			public const int Prod2 = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int bj10 = 2130837512;
+			public const int Prod3 = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int bj11 = 2130837513;
+			public const int Prod4 = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int bj12 = 2130837514;
+			public const int Prod5 = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int bj13 = 2130837515;
+			public const int Prod6 = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int bj14 = 2130837516;
+			public const int Prod7 = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int bj15 = 2130837517;
+			public const int Prod8 = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int bj16 = 2130837518;
+			public const int Prod9 = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int bj17 = 2130837519;
+			public const int welcome = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int bj18 = 2130837520;
-			
-			// aapt resource value: 0x7f020011
-			public const int bj19 = 2130837521;
-			
-			// aapt resource value: 0x7f020012
-			public const int bj20 = 2130837522;
-			
-			// aapt resource value: 0x7f020013
-			public const int bj21 = 2130837523;
-			
-			// aapt resource value: 0x7f020014
-			public const int bj22 = 2130837524;
-			
-			// aapt resource value: 0x7f020015
-			public const int bj23 = 2130837525;
-			
-			// aapt resource value: 0x7f020016
-			public const int bj24 = 2130837526;
-			
-			// aapt resource value: 0x7f020017
-			public const int bj25 = 2130837527;
-			
-			// aapt resource value: 0x7f020018
-			public const int bj26 = 2130837528;
-			
-			// aapt resource value: 0x7f020019
-			public const int bjxx = 2130837529;
-			
-			// aapt resource value: 0x7f02001a
-			public const int bjxx2 = 2130837530;
-			
-			// aapt resource value: 0x7f02001b
-			public const int GPJ = 2130837531;
-			
-			// aapt resource value: 0x7f02001c
-			public const int Icon = 2130837532;
-			
-			// aapt resource value: 0x7f02001d
-			public const int Images = 2130837533;
-			
-			// aapt resource value: 0x7f02001e
-			public const int laofengxiang = 2130837534;
-			
-			// aapt resource value: 0x7f02001f
-			public const int Logo = 2130837535;
-			
-			// aapt resource value: 0x7f020020
-			public const int Logo_bmp = 2130837536;
-			
-			// aapt resource value: 0x7f020021
-			public const int Prod1 = 2130837537;
-			
-			// aapt resource value: 0x7f020022
-			public const int Prod2 = 2130837538;
-			
-			// aapt resource value: 0x7f020023
-			public const int Prod3 = 2130837539;
-			
-			// aapt resource value: 0x7f020024
-			public const int Prod4 = 2130837540;
-			
-			// aapt resource value: 0x7f020025
-			public const int Prod5 = 2130837541;
-			
-			// aapt resource value: 0x7f020026
-			public const int Prod6 = 2130837542;
-			
-			// aapt resource value: 0x7f020027
-			public const int Prod7 = 2130837543;
-			
-			// aapt resource value: 0x7f020028
-			public const int Prod8 = 2130837544;
-			
-			// aapt resource value: 0x7f020029
-			public const int Prod9 = 2130837545;
-			
-			// aapt resource value: 0x7f02002a
-			public const int welcome = 2130837546;
-			
-			// aapt resource value: 0x7f02002b
-			public const int zhaoyazhi = 2130837547;
+			public const int zhaoyazhi = 2130837520;
 			
 			static Drawable()
 			{
@@ -785,35 +704,35 @@ namespace LFXHK_ProdGoldShow
 			// aapt resource value: 0x7f080005
 			public const int textView2 = 2131230725;
 			
-			// aapt resource value: 0x7f080027
-			public const int textView22 = 2131230759;
-			
-			// aapt resource value: 0x7f080028
-			public const int textView23 = 2131230760;
-			
-			// aapt resource value: 0x7f080029
-			public const int textView24 = 2131230761;
-			
 			// aapt resource value: 0x7f08002b
-			public const int textView28 = 2131230763;
+			public const int textView22 = 2131230763;
 			
 			// aapt resource value: 0x7f08002c
-			public const int textView29 = 2131230764;
+			public const int textView23 = 2131230764;
+			
+			// aapt resource value: 0x7f08002d
+			public const int textView24 = 2131230765;
+			
+			// aapt resource value: 0x7f08002f
+			public const int textView28 = 2131230767;
+			
+			// aapt resource value: 0x7f080030
+			public const int textView29 = 2131230768;
 			
 			// aapt resource value: 0x7f080007
 			public const int textView3 = 2131230727;
 			
-			// aapt resource value: 0x7f08002d
-			public const int textView30 = 2131230765;
-			
-			// aapt resource value: 0x7f08002f
-			public const int textView34 = 2131230767;
-			
-			// aapt resource value: 0x7f080030
-			public const int textView35 = 2131230768;
-			
 			// aapt resource value: 0x7f080031
-			public const int textView36 = 2131230769;
+			public const int textView30 = 2131230769;
+			
+			// aapt resource value: 0x7f080027
+			public const int textView34 = 2131230759;
+			
+			// aapt resource value: 0x7f080028
+			public const int textView35 = 2131230760;
+			
+			// aapt resource value: 0x7f080029
+			public const int textView36 = 2131230761;
 			
 			// aapt resource value: 0x7f08001b
 			public const int textView37 = 2131230747;

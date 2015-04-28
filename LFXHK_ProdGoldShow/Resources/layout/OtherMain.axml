@@ -147,6 +147,35 @@
                         android:layout_marginTop="5dip"
                         android:layout_marginBottom="5dip">
                         <TextView
+                            android:text="@string/str5"
+                            android:layout_column="0"
+                            android:id="@+id/textView34"
+                            android:gravity="right"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_column="1"
+                            android:id="@+id/textView35"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/data_size"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:text="Text"
+                            android:layout_column="2"
+                            android:id="@+id/textView36"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/data_size"
+                            android:textStyle="bold" />
+                    </TableRow>
+                    <TableRow
+                        android:id="@+id/tableRow5"
+                        android:layout_marginBottom="5dip"
+                        android:layout_marginTop="5dip">
+                        <TextView
                             android:text="@string/str3"
                             android:layout_column="0"
                             android:id="@+id/textView22"
@@ -172,9 +201,9 @@
                             android:textStyle="bold" />
                     </TableRow>
                     <TableRow
-                        android:id="@+id/tableRow5"
-                        android:layout_marginBottom="5dip"
-                        android:layout_marginTop="5dip">
+                        android:id="@+id/tableRow6"
+                        android:layout_marginTop="5dip"
+                        android:layout_marginBottom="5dip">
                         <TextView
                             android:text="@string/str4"
                             android:layout_column="0"
@@ -195,35 +224,6 @@
                             android:text="Text"
                             android:layout_column="2"
                             android:id="@+id/textView30"
-                            android:gravity="center"
-                            android:textColor="@color/black"
-                            android:textSize="@dimen/data_size"
-                            android:textStyle="bold" />
-                    </TableRow>
-                    <TableRow
-                        android:id="@+id/tableRow6"
-                        android:layout_marginTop="5dip"
-                        android:layout_marginBottom="5dip">
-                        <TextView
-                            android:text="@string/str5"
-                            android:layout_column="0"
-                            android:id="@+id/textView34"
-                            android:gravity="right"
-                            android:textColor="@color/black"
-                            android:textSize="@dimen/text_size"
-                            android:textStyle="bold" />
-                        <TextView
-                            android:text="Text"
-                            android:layout_column="1"
-                            android:id="@+id/textView35"
-                            android:gravity="center"
-                            android:textColor="@color/black"
-                            android:textSize="@dimen/data_size"
-                            android:textStyle="bold" />
-                        <TextView
-                            android:text="Text"
-                            android:layout_column="2"
-                            android:id="@+id/textView36"
                             android:gravity="center"
                             android:textColor="@color/black"
                             android:textSize="@dimen/data_size"

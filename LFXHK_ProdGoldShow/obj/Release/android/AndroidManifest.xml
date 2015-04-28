@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="2" android:installLocation="auto" android:versionName="1.1" package="LFXHK_ProdGoldShow.LFXHK_ProdGoldShow">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" android:versionName="1.3" package="LFXHK_ProdGoldShow.LFXHK_ProdGoldShow" android:versionCode="4">
   <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
   <application android:icon="@drawable/laofengxiang" android:label="香港金價" android:name="mono.android.app.Application">
     <activity android:icon="@drawable/laofengxiang" android:label="香港金價" android:screenOrientation="landscape" android:name="lfxhk_prodgoldshow.MainActivity" />
@@ -9,7 +9,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:icon="@drawable/laofengxiang" android:label="金价显示" android:screenOrientation="landscape" android:name="lfxhk_prodgoldshow.OtherMainActivity" />
+    <activity android:icon="@drawable/laofengxiang" android:label="金價顯示" android:screenOrientation="landscape" android:name="lfxhk_prodgoldshow.OtherMainActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="LFXHK_ProdGoldShow.LFXHK_ProdGoldShow.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
   <!--在SDCard中创建与删除文件权限  -->

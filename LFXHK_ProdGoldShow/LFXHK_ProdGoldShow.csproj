@@ -96,33 +96,6 @@
     <AndroidResource Include="Resources\values\Style.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable-hdpi\bj02.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj08.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj03.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj04.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj05.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj06.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj07.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj26.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj10.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj11.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj12.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj13.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj14.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj15.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj16.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj17.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj18.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj19.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj20.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj21.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj22.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj23.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj24.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj25.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bj09.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bjxx.jpg" />
-    <AndroidResource Include="Resources\drawable-hdpi\bjxx2.jpg" />
     <AndroidResource Include="Resources\values\Dimens.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
     <AndroidResource Include="Resources\drawable\Images.png" />
